@@ -6,8 +6,10 @@
   <meta charset="UTF-8">
   <title> Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <!-- Fontawesome CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -68,15 +70,15 @@
         <div class="right">
           <div class="topic">Designing Is My Passion</div>
           <p>Hi... I am SivaKrishna. I have completed my Bachelor's degree from Bharathiyar University, specializing in
-             Information Technology recently. During my time in college, I got good grades.
+            Information Technology recently. During my time in college, I got good grades.
 
             I am a person with critical thinking skills and have the ability to turn a regular project into something
-            innovative. My final year major project is based on ChatRoom(online chat App). We can build this application
+            innovative. My final year major project is based on <span class="undrln">ChatRoom(online chat App)</span>. We can build this application
             in
             many Simple ways, but I Deside to make this
-            project innovative using <span class="bold-txt">ReactJS as Front-end</span> ,<span class="bold-txt">NodeJS
+            project innovative using <span class="undrln">ReactJS as Front-end</span> ,<span class="undrln">NodeJS
               as
-              back-end</span> and <span class="bold-txt">Firebase for Authenticate the User's</span> .
+              back-end</span> and <span class="undrln">Firebase for Authenticate the User's</span> .
             I always put quality on top of anything, and whatever projects I made were real-life projects. I also
             possess good communication skills and would like to improve my skills by working in your company.
           </p>
@@ -126,8 +128,8 @@
             <div class="per">64%</div>
           </div>
           <div class="box">
-            <div class="topic">OOPS</div>
-            <div class="per">48%</div>
+            <div class="topic">Google(Debug Error)</div>
+            <div class="per">100%</div>
           </div>
         </div>
       </div>
@@ -196,49 +198,118 @@
     <div class="content">
       <div class="title"><span>Contact Me</span></div>
       <div class="text">
-        <div class="topic">Have Any Project?</div>
+        
 
-        <div class="container" style="padding: 0%;">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-          </form>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">Looking for A Good Candidate</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters">
+                  <div class="col-md-7 d-flex align-items-stretch">
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+                      <div id="form-message-warning" class="mb-4"></div>
+                      <div id="form-message-success" class="mb-4">
+                        Your message was sent, thank you!
+                      </div>
+                      <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea name="message" class="form-control" id="message" cols="60" rows="8"
+                                placeholder="Message"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <button type="submit" value="Send Message" class="btn btn-primary">Send</button>
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex align-items-stretch">
+                    <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+                      <h3 class="mb-4 mt-md-4">Contact us</h3>
+                      <div class="dbox w-100 d-flex align-items-start">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p><span>Address:</span><br>MGR Nagar,<br>Udumalpet TamilNadu IN 642154</p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p><span>Phone:</span> <a href="tel://+917810002624">+91 78100 02624</a></p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p><span>Email:</span> <a href="mailto:info@yoursite.com">sivakrishnacoc<br>@gmail.com</a></p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p><span>Website</span> <a href="https://github.com/sivakrishnacode">github.com</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <button>Let's Chat</button>
       </div>
     </div>
     </div>
   </section>
 
-  <!-- Footer Section Start -->
+  <!-- Footer Section Start
   <footer>
     <div class="text">
       <span>Created By <a href="#">SivaKrishna</a> | &#169; 2022 All Rights Reserved</span>
     </div>
-  </footer>
+  </footer> -->
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
   <script>
     var typed = new Typed(".auto-type", {
-      strings: ["Siva Krishna", "Programmer...", "Developer..."],
+      strings: ["Siva Krishna", "Programmer", "Developer"],
       typeSpeed: 80,
       backSpeed: 30,
       loop: true
