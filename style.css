@@ -255,6 +255,10 @@ section .button button:hover{
   color: #4070f4;
 }
 
+.undrln{ 
+  font-weight: 600;
+}
+
  /* My Skills CSS */
  .skills{
    background: #F0F8FF;
