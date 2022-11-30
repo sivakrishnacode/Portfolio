@@ -530,6 +530,20 @@ footer .text span a:hover{
 p{
   line-height: 2;
 }
+a {color:gray;}         /* Unvisited link  */
+a:visited {color:gray;}
 
-/* background: rgb(18,18,144);
-background: linear-gradient(302deg, rgba(18,18,144,1) 7%, rgba(35,160,200,1) 45%);*/
+
+p{
+  line-height: 2;
+}
+
+.para{
+  font-size: large;
+}
+
+
+.undrln{
+  
+  font-weight: 600;
+}
